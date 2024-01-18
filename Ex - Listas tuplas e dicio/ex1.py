@@ -33,7 +33,7 @@ alunos_aprovados = sum(1 for nota in notas_alunos if nota >= 7.0)
 print(f"Número de alunos com média maior ou igual a 7.0: {alunos_aprovados}")
 
 
-# Exercício 03
+#Exercício 03
 carrinho_de_compras = {"produto1": 10,
                        "produto2": 5, "produto3": 8, "produto4": 3}
 

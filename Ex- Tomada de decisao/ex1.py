@@ -7,7 +7,7 @@ if num1 > num2:
 else:
     print(f"O maior número é: {num2}")
 
-# Exercício 02
+#Exercício 02
 turno = input(
     "Em que turno você estuda? (M - matutino, V - vespertino, N - noturno): ").upper()
 

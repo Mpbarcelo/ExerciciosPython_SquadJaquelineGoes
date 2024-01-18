@@ -1,4 +1,4 @@
-#exercicio 01
+# exercicio 01
 def somar_numeros(a, b, c):
     return a + b + c
 
@@ -10,7 +10,7 @@ resultado = somar_numeros(num1, num2, num3)
 print(f"A soma dos três números é: {resultado}")
 
 
-#exercicio 02
+# exercicio 02
 def inverter_numero(numero):
     return int(str(numero)[::-1])
 
@@ -19,7 +19,7 @@ resultado = inverter_numero(numero)
 print(f"Número invertido: {resultado}")
 
 
-#exercicio 03
+# exercicio 03
 def celsius_para_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 
@@ -43,7 +43,7 @@ def menu_conversao():
 
 menu_conversao()
 
-#exercicio 04
+# exercicio 04
 def calcular_valor_em_moeda(valor_em_real, taxa_de_conversao):
     return valor_em_real / taxa_de_conversao
 

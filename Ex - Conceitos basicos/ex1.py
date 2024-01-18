@@ -1,4 +1,4 @@
-# # Exercicio 01
+# Exercicio 01
 num1 = float(input('Digite o primeiro número: '))
 num2 = float(input('Digite o segundo número: '))
 
@@ -13,13 +13,13 @@ print(f'Multiplicação: {multiplicacao}')
 print(f'Divisão: {divisao}')
 
 
-# # Exercicio 02
+# Exercicio 02
 ano_nascimento = int(input('Digite o ano de nascimento: '))
 idade_atual = 2024 - ano_nascimento
 print(f'Sua idade atual é: {idade_atual} anos')
 
 
-# # exercicio 03
+# exercicio 03
 quilometros = float(input('Digite a quantidade de quilômetros: '))
 metros = quilometros * 1000
 centimetros = quilometros * 100000
@@ -31,7 +31,7 @@ print(f'{centimetros} centímetros')
 print(f'{milimetros} milímetros')
 
 
-# #exercicio 04
+# exercicio 04
 litros = float(
     input('Digite a quantidade de litros de combustível consumidos: '))
 distancia = float(input('Digite a distância percorrida em quilômetros: '))
@@ -40,7 +40,7 @@ consumo_medio = distancia / litros
 
 print(f'O consumo médio é de {consumo_medio:.2f} km/l')
 
-# #exercicio 05
+# exercicio 05
 salario_bruto = float(input('Digite o salário bruto: '))
 desconto_ir = 0.0
 
@@ -60,7 +60,7 @@ salario_liquido = salario_bruto * (1 - desconto_ir / 100)
 print(f'O salário líquido é de R${salario_liquido:.2f}')
 
 
-# #exercicio 06
+# exercicio 06
 distancia_viagem = float(
     input('Digite a distância da viagem em quilômetros: '))
 
